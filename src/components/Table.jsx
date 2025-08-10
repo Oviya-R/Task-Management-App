@@ -5,6 +5,8 @@ function Table({ tableData, handleEdit, handleDelete }) {
                 <tr className="bg-gray-100">
                     <th className="border p-2">Task Title</th>
                     <th className="border p-2">Task Description</th>
+
+                    <th className="border p-2">Actions</th>
                 </tr>
             </thead>
             <tbody>

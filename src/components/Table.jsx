@@ -5,9 +5,6 @@ function Table({ tableData, handleEdit, handleDelete }) {
                 <tr className="bg-gray-100">
                     <th className="border p-2">Task Title</th>
                     <th className="border p-2">Task Description</th>
-                    <th className="border p-2">Due Date</th>
-                    <th className="border p-2">Priority</th>
-                    <th className="border p-2">Actions</th>
                 </tr>
             </thead>
             <tbody>
@@ -22,8 +19,6 @@ function Table({ tableData, handleEdit, handleDelete }) {
                         <tr key={index}>
                             <td className="border px-4 py-2">{task.title}</td>
                             <td className="border px-4 py-2">{task.description}</td>
-                            <td className="border px-4 py-2">{task.dueDate}</td>
-                            <td className="border px-4 py-2">{task.priority}</td>
                             <td className="border px-4 py-2 text-center">
                                 <button
                                     className="bg-yellow-500 text-white px-3 py-1 rounded hover:bg-yellow-600"

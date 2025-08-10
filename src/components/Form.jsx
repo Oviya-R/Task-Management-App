@@ -1,14 +1,6 @@
 function Form({ formData, handleFormDataChange, handleSubmit, editIndex }) {
   return (
     <div>
-      <div>
-        <section className="bg-blue-500 p-2">
-          <ul className="flex gap-4 text-white rounded">
-            <li>Home</li>
-            <li>Create a Task</li>
-          </ul>
-        </section>
-      </div>
 
       <h2 className="text-2xl font-semibold mb-4 p-6">TASK MANAGEMENT APP</h2>
 
